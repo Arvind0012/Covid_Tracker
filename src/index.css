@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+  text-align: center;
+}
+ul{
+  display: flex;
+}
+ul li:hover{
+  /* transform: translateY(5px) rotate(360deg); */
+  transition: ease-in-out 0.2s;
+  box-shadow: 12px 12px 5px 1px rgba(230, 16, 16, 0.2);
+}
+.card{
+  list-style: none;
+  /* line-height: 12px; */
+  background-color: rgb(123, 29, 217);
+  width: 13rem;
+  height: 9rem;
+  padding-top: 20px;
+  margin: 10px;
+  text-align: center;
+  color: rgb(226, 140, 140);
+  border-radius: 7px;
+}
+.card_total{
+  font-weight: 600;
+}
+#death{
+  background-color: rgb(216, 61, 61);
+  color: black;
+}
